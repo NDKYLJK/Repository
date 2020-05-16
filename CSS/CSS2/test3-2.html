@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 设计盒子 */
+        .nav a {
+            display: inline-block;
+            width: 120px;
+            height: 60px;
+            background-color:#777777;
+            text-align: center;
+            color: aqua;
+            /* 行高等于盒子的高度才可以达到真正的居中 */
+            /* line-height: 60px; */
+            /* 本次因为图像原因偏向上方会好看一点 */
+            line-height: 50px;
+            /* 去掉下划线 */
+            text-decoration: none;
+        }
+        .nav .beijing1 {
+            background: url(image/BJ1.GIF) no-repeat;
+        }
+        .nav .beijing2 {
+            background: url(image/BJ2.GIF) no-repeat;
+        }
+        .nav .beijing3 {
+            background: url(image/BJ3.GIF) no-repeat;
+        }
+        .nav .beijing4 {
+            background: url(image/BJ4.GIF) no-repeat;
+        }
+        .nav .beijing5 {
+            background: url(image/BJ5.GIF) no-repeat;
+        }
+        /* 经过图标时候 换背景 */
+        .nav .beijing1:hover {
+            background: url(image/BJ6.GIF) no-repeat;
+        }
+        .nav .beijing2:hover {
+            background: url(image/BJ4.GIF) no-repeat;
+        }
+        .nav .beijing3:hover {
+            background: url(image/BJ5.GIF) no-repeat;
+        }
+        .nav .beijing4:hover {
+            background: url(image/BJ1.GIF) no-repeat;
+        }
+        .nav .beijing5:hover {
+            background: url(image/BJ2.GIF) no-repeat;
+        }
+    </style>
+
+</head>
+<body>
+      
+      <div class="nav">
+          <a href="#" class="beijing1">五彩导航</a>
+          <a href="#" class="beijing2">五彩导航</a>
+          <a href="#" class="beijing3">五彩导航</a>
+          <a href="#" class="beijing4">五彩导航</a>
+          <a href="#" class="beijing5">五彩导航</a>
+      </div>
+      
+</body>
+</html>
